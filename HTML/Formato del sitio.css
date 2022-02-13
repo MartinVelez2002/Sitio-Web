@@ -1,0 +1,125 @@
+
+
+body {
+    background-color: gainsboro; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+hr{
+    border-style:double;
+}
+
+img{
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+}
+
+h2{
+    background: transparent;
+}
+/* ------------------------ */
+/* Tabla de contenido Griego */
+table{
+    background: transparent;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 5px black  ;
+
+}
+
+td{
+
+    border: 1px solid rgba(240, 132, 43, 0.555);    
+    padding: 10px;
+}
+
+th{
+    background:transparent;
+    border: 1px solid rgba(240, 132, 43, 0.582);    
+    padding: 10px;
+}
+
+/* Fin de Mitología Griega */
+
+
+/* Mitología Artúrica */
+
+table.mesa{
+    background-color: aliceblue;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 5px black 
+
+}
+
+td.mesa,th.mesa{
+    border: solid black;
+    padding: 10px;
+    
+}
+
+caption{
+    caption-side: bottom;
+    font-size: large;
+}
+
+/* ---------- */
+/* ---------- */
+
+
+td.regis{
+    border: solid black;
+    padding: 10px;
+
+}
+
+a.sitio{
+    font-family: 'Times New Roman';
+    font-size: larger;
+
+}
+
+header{
+    box-shadow: 0px 4px 5px black  ;
+    padding: 0px;
+}
+/* ------------- */
+/* ------------- */
+
+body.registro{
+    background: -webkit-linear-gradient(to right, #ff002275, #002fff8f), url(img/mito.jpg);
+    background: linear-gradient(to right, #ff002275, #002fff8f), url(img/mito.jpg);
+    background-size: cover;
+}
+
+
+h1.registro{
+    padding:auto;
+}
+
+table.registro{
+    border: #ff0224ad;
+    background-color: white;
+}
+
+header{
+    background-color: rgba(5, 0, 12, 0.466);
+
+}
+
